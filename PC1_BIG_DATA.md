@@ -117,7 +117,7 @@ El coeficiente de Pearson de **-0.38** indica una correlación negativa moderada
 
 ## 5. Etapa 2 — Plan de trabajo (Semanas 7–14)
 
-| Semana | Maria Fernanda (Ing. de Datos) | Isabella (Líder) | Jorge (Analista de Negocio) | Carla (Analista de Datos) |
+| Semana | Maria Fernanda  | Isabella  | Mateo | Carla  |
 |---|---|---|---|---|
 | **Semana 7** | Integrar definitivamente las dos fuentes (NYC Taxi + NYC Events). Verificar joins y calidad de datos combinados. | Coordinar validación de las 3 hipótesis del PC1. Documentar decisiones metodológicas en el notebook. | Redactar conclusiones de cada hipótesis (aceptada / rechazada) en lenguaje de negocio. | Ejecutar análisis bivariado: cruces de día de semana × demanda, tipo evento × viajes, hora × tarifa. |
 | **Semana 8** | Crear variables derivadas: franjas horarias, flag "evento deportivo", segmentos de zona (aeropuerto vs Manhattan). | Revisar avance del análisis y alinear con rúbrica PC2 (Nivel 2). Actualizar bitácora de contribución. | Redactar los primeros insights de negocio: qué segmentos tienen más demanda y por qué. | Comparar segmentos: zonas alta vs baja demanda, días laborables vs fines de semana, eventos deportivos vs especiales. |
