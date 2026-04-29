@@ -65,7 +65,7 @@ En este contexto, analizar cómo estas variables afectan la demanda y los precio
 
 ### a. Visualización 1: Distribución de viajes por hora del día
 
-La demanda de taxis alcanza su punto más bajo entre las 3 y 6 am, incrementándose progresivamente hasta el pico entre las 18h y 20h. Esto indica que las plataformas deben concentrar su flota en horario vespertino y reducir operaciones en la madrugada.
+La demanda de taxis alcanza su punto más bajo entre las 3 y 6 am, incrementándose progresivamente hasta el pico entre las 16h y 19h. Esto indica que las plataformas deben concentrar su flota en horario vespertino y reducir operaciones en la madrugada.
 
 ### b. Visualización 2: Distribución de tarifas
 
@@ -81,7 +81,7 @@ La duración del viaje (`duracion_minutos`) tiene una correlación alta con la t
 
 ### e. Visualización 5: Evolución diaria de la demanda
 
-La demanda oscila entre 90,000 y 120,000 viajes diarios en marzo 2022, con caídas pronunciadas cada 7 días coincidiendo con los domingos. Los picos más altos ocurren martes y jueves, lo que permite planificar la disponibilidad de conductores con anticipación.
+La demanda oscila entre 90,000 y 120,000 viajes diarios en marzo 2022, con caídas pronunciadas cada 7 días coincidiendo con los domingos. Los picos más altos ocurren jueves y viernes, lo que permite planificar la disponibilidad de conductores con anticipación.
 
 ### f. Visualización 6: Correlación taxis vs. eventos
 
