@@ -69,7 +69,7 @@ La demanda de taxis alcanza su punto más bajo entre las 3 y 6 am, incrementánd
 
 ### b. Visualización 2: Distribución de tarifas
 
-La tarifa promedio es de **$13.72 USD**. El 50% de los viajes cuesta menos de $9.50, confirmando que dominan los trayectos cortos dentro de Manhattan. Existe una cola de outliers hasta $52.00 (percentil 99), probablemente viajes al aeropuerto JFK o LaGuardia.
+La tarifa promedio es de **$13.72 USD**. El 50% de los viajes cuesta menos de $9.50, confirmando que dominan los trayectos cortos. Existe una cola de outliers hasta $52.00 (percentil 99), probablemente viajes al aeropuerto JFK o LaGuardia.
 
 ### c. Visualización 3: Tipos de eventos públicos
 
@@ -77,7 +77,7 @@ Los eventos deportivos juveniles y especiales dominan el calendario de NYC en ma
 
 ### d. Visualización 4: Mapa de calor de correlaciones
 
-La duración del viaje (`duracion_minutos`) tiene una correlación alta con la tarifa (**0.86**), siendo el principal determinante del precio. Sorprendentemente, la distancia (`trip_distance`) tiene una correlación baja (**0.14**), posiblemente por la congestión vehicular en Manhattan.
+La duración del viaje (`duracion_minutos`) tiene una correlación alta con la tarifa (**0.86**), siendo el principal determinante del precio. Sorprendentemente, la distancia (`trip_distance`) tiene una correlación baja (**0.14**), posiblemente por la congestión vehicular.
 
 ### e. Visualización 5: Evolución diaria de la demanda
 
