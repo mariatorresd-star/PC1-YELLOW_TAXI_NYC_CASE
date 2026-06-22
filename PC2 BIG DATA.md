@@ -68,11 +68,17 @@ El análisis de la mediana de viajes diarios por día de la semana sobre los och
 
 El jueves es consistentemente el día de mayor demanda, superando la media global de 99,942 viajes. El domingo es el valle más profundo, seguido del lunes. Sorprendentemente, el sábado mantiene una demanda similar a los días laborales (\~107k), lo que sugiere que el ocio nocturno del fin de semana sostiene la actividad del taxi aun cuando el tráfico laboral cae.
 
+![Grafico 1](foto1.png)
+
 4. #### **Distribución de eventos públicos por día de la semana**
 
 El gráfico de eventos por día de la semana revela un patrón de gran relevancia para entender el comportamiento de la demanda (ver Gráfico 2 — Promedio de eventos por día: Special Events vs. Deportivos, Ene–Ago 2022). Los **Special Events se concentran entre semana**, con promedios diarios de entre 1,000 y 1,300 eventos de lunes a viernes, y caen notoriamente el fin de semana (\~900 el sábado y domingo). Por el contrario, los **eventos deportivos juveniles dominan el fin de semana**, disparándose a aproximadamente 2,500 el sábado y 2,700 el domingo, mientras que entre semana se mantienen en niveles similares a los Special Events (\~1,200–1,500).
 
 Este patrón es clave: los fines de semana están saturados de eventos deportivos juveniles —que movilizan familias con vehículo propio— y al mismo tiempo registran la menor demanda de taxis de la semana. Entre semana, los Special Events predominan y la demanda de taxis es mayor. Esta separación natural entre tipos de eventos y días de la semana sustenta directamente las tres hipótesis del proyecto.
+
+![Grafico 2](descrip2.png)
+![Grafico 3](descrip3.png)
+![Grafico 4](descrip4.png)
 
 4. ### **Análisis Diagnóstico — ¿Por qué pasó lo que pasó?**
 
@@ -89,6 +95,7 @@ El análisis de correlaciones de Pearson con el costo base (`costo_base`) calcul
 Este resultado matiza el hallazgo del PPT de PC1 basado en la muestra de marzo: con el dataset completo de ocho meses, la distancia en millas supera a la duración como predictor de la tarifa (0.78 vs 0.70), aunque ambas variables tienen un efecto fuerte y combinado. Lo que sí se confirma con solidez es que la hora del día y el número de pasajeros son irrelevantes para explicar el costo del viaje, lo que descarta cualquier estrategia de pricing diferenciada por cantidad de pasajeros o por franja horaria basada en tarifa.
 
 La conclusión de negocio se mantiene: en Nueva York, la tarifa la determinan cuánto se recorre y cuánto tiempo se tarda, no cuántos pasajeros van ni a qué hora se viaja.
+
 
 2. ####  **El patrón semanal se repite sin excepción en los 8 meses**
 
