@@ -1,4 +1,4 @@
-**PC2 BIG DATA & DATA ANALYTICS**
+# **PC2 BIG DATA & DATA ANALYTICS**
 
 **![][image1]**
 
@@ -164,6 +164,8 @@ El **clúster de demanda media con eventos moderados** (puntos dispersos entre 1
 El **clúster de demanda baja con alta densidad de eventos** (puntos en el extremo derecho, 3,500–4,500 eventos, 60k–85k viajes) representa los días con mayor saturación de eventos públicos —principalmente deportivos de fin de semana— y los niveles de demanda de taxi más bajos del período.
 
 El score de Silhouette de **0.59** indica una separación moderada-buena entre los clústeres, suficiente para que esta segmentación tenga valor operativo real: la NYC TLC puede clasificar cualquier día futuro en uno de estos tres perfiles usando solo el calendario de eventos y el día de la semana, y ajustar la oferta de flota en consecuencia.
+
+![Grafico 7](pred1.png)
 
 6. ### **Análisis Prescriptivo**
 
