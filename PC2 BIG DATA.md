@@ -95,7 +95,7 @@ El análisis de correlaciones de Pearson con el costo base (`costo_base`) calcul
 Este resultado matiza el hallazgo del PPT de PC1 basado en la muestra de marzo: con el dataset completo de ocho meses, la distancia en millas supera a la duración como predictor de la tarifa (0.78 vs 0.70), aunque ambas variables tienen un efecto fuerte y combinado. Lo que sí se confirma con solidez es que la hora del día y el número de pasajeros son irrelevantes para explicar el costo del viaje, lo que descarta cualquier estrategia de pricing diferenciada por cantidad de pasajeros o por franja horaria basada en tarifa.
 
 La conclusión de negocio se mantiene: en Nueva York, la tarifa la determinan cuánto se recorre y cuánto tiempo se tarda, no cuántos pasajeros van ni a qué hora se viaja.
-
+![Grafico 5](diag1.png)
 
 2. ####  **El patrón semanal se repite sin excepción en los 8 meses**
 
@@ -109,6 +109,8 @@ Algunos datos destacados del heatmap:
 * A partir de febrero la demanda crece mes a mes hasta un pico en marzo–abril, luego se modera en julio–agosto.
 
 Este patrón estructural permite planificar la distribución de flota con al menos una semana de anticipación con alta confianza.
+
+![Grafico 6](diag2.png)
 
 #### **4.3 Validación de hipótesis**
 
