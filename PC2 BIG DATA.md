@@ -242,3 +242,239 @@ En tercer lugar, **integrar datos reales de oferta** —conductores activos por 
 Finalmente, **extender el análisis a los doce meses de 2022** para capturar la estacionalidad completa del año e identificar si los patrones de demanda detectados en enero–agosto se mantienen, se amplifican o se invierten durante el otoño e invierno neoyorquino.
 
 [image1]: <data:image/png;base64,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>
+
+
+# Apéndice de Uso de IA — PC2 Big Data & Data Analytics
+
+
+> **Declaración de uso responsable**  
+> El equipo utilizó inteligencia artificial generativa como herramienta de apoyo técnico en
+> cinco momentos puntuales del proyecto. En todos los casos, el equipo verificó los outputs
+> antes de incorporarlos al entregable, adaptó el código a las condiciones reales del entorno
+> Databricks Serverless, y asumió la responsabilidad sobre el análisis, las interpretaciones y
+> las recomendaciones estratégicas. Las conclusiones del informe son propias del equipo.
+> Ningún fragmento del informe fue generado íntegramente por IA sin revisión y edición crítica.
+
+---
+
+## Formato de registro
+
+Cada entrada documenta: herramienta utilizada · prompt enviado · propósito · cómo se validó el output.
+
+---
+
+## Prompt 1 — Diseño del pipeline ETL en PySpark sobre Databricks Serverless
+
+**Herramienta:** Claude Sonnet 4.6 (claude.ai)  
+**Integrante que lo ejecutó:** Maria Fernanda Torres (Ingeniera de Datos)
+
+**Prompt enviado:**
+
+> "Necesito construir un pipeline ETL completo en PySpark sobre Databricks Serverless para
+> procesar los 8 archivos parquet mensuales del NYC Yellow Taxi 2022 (enero a agosto). El pipeline
+> debe: (1) descargar los archivos desde la URL pública de NYC TLC si no existen en el volumen,
+> (2) renombrar las columnas al español, (3) calcular duracion_minutos, fecha_exacta y
+> hora_recogida como columnas derivadas, (4) filtrar outliers con rangos razonables para distancia,
+> duración, pasajeros y tarifa, y (5) clasificar cada viaje en un bloque horario (Madrugada, Mañana,
+> Tarde, Noche). El entorno es Databricks Serverless con PySpark — no hay acceso a librerías de
+> ML de Spark por restricciones del whitelist. Genera el código limpio y sin comentarios."
+
+**Propósito:**  
+Acelerar la escritura del código base del ETL de taxis, evitando errores de sintaxis en la API de
+PySpark y asegurando que la lógica de filtrado fuera coherente con los rangos operativos reales
+de NYC (distancias < 100 millas, duraciones < 180 minutos, tarifas > 0).
+
+**Cómo se validó el output:**  
+- El código fue ejecutado celda por celda en Databricks. Se verificó el conteo de registros antes
+  y después de cada filtro para confirmar que los outliers eliminados coincidían con lo observado
+  en el EDA de PC1 (aprox. 120,000 registros nulos).
+- Se comprobó que `bloque_horario` asignaba correctamente las franjas revisando 20 registros
+  aleatorios con `df_taxis_clean.select("hora_recogida","bloque_horario").show(20)`.
+- Se detectó que la IA usó el nombre `"Mañana"` con tilde, lo que generó inconsistencias en
+  filtros posteriores. El equipo lo corrigió manualmente a `"Manana"` en todo el notebook para
+  evitar problemas de encoding en Databricks Serverless.
+
+---
+
+## Prompt 2 — Corrección del error Py4JSecurityException en Nivel 2
+
+**Herramienta:** Claude Sonnet 4.6 (claude.ai)  
+**Integrante que lo ejecutó:** Carla Quispe (Analista de Datos)
+
+**Prompt enviado:**
+
+> "En la celda de correlaciones del Nivel 2 me sale este error en Databricks Serverless:
+> Py4JError: Constructor public org.apache.spark.ml.feature.VectorAssembler is not whitelisted.
+> El código usa VectorAssembler + Correlation.corr() de spark.ml.stat para calcular la matriz de
+> correlacion de Pearson sobre 7 variables numericas del dataframe de taxis. Necesito un
+> reemplazo que: (1) no use ninguna clase de spark.ml.feature, (2) sea estadisticamente
+> equivalente, (3) funcione sobre el 100% de los datos sin cargar todo en memoria. Sugiere la
+> mejor alternativa y explica por que funciona en Serverless."
+
+**Propósito:**  
+Resolver un bloqueo técnico crítico causado por las restricciones del whitelist de constructores
+Java en Databricks Serverless, que impide instanciar `VectorAssembler` directamente desde Python.
+El equipo necesitaba mantener la matriz de correlación completa para sustentar el hallazgo de que
+`duracion_minutos` explica mejor la tarifa que `distancia_millas`.
+
+**Cómo se validó el output:**  
+- La IA propuso usar `.sample(fraction=0.05, seed=42).toPandas().corr()`. El equipo evaluó
+  críticamente si el 5% de muestra era estadisticamente suficiente para 3.3 millones de registros.
+- Se calculó el intervalo de confianza del coeficiente r con n=165,000 (5% de 3.3M) y se
+  confirmó que el error estándar de r era menor a 0.003, lo que hace la muestra representativa.
+- Se compararon los coeficientes r obtenidos con la muestra versus los reportados en el EDA
+  de PC1 (calculados sobre marzo solamente). Los valores fueron consistentes: r(duracion, tarifa)
+  cambió de 0.70 a 0.86 al incorporar los 8 meses, lo que el equipo interpretó correctamente
+  como un efecto del mayor rango de distancias en el dataset completo versus solo marzo.
+- Los resultados finales del informe usan los valores del dataset completo, con la nota metodológica
+  de que se calcularon sobre muestra del 5% por restricciones del entorno.
+
+---
+
+## Prompt 3 — Diseño metodologico para la validacion de hipotesis H1, H2 y H3
+
+**Herramienta:** Claude Sonnet 4.6 (claude.ai)  
+**Integrante que lo ejecutó:** Jorge Peña (Analista de Negocio)
+
+**Prompt enviado:**
+
+> "Tenemos tres hipotesis del PC1 que debemos validar o rechazar con los datos de 8 meses:
+> H1: Los dias con mayor concentracion de eventos deportivos juveniles tienen menor demanda
+> de taxis (correlacion negativa esperada).
+> H2: Los martes y jueves concentran picos de demanda superiores a 115k viajes, sabados y
+> domingos valles inferiores a 93k — el ciclo semanal es el predictor mas robusto.
+> H3: Los dias con mayor proporcion de Special Events tienen mayor demanda de taxis (+5%
+> sobre la media).
+> El entorno es Databricks Serverless. No tenemos scipy disponible de forma garantizada.
+> Propone el codigo de validacion usando solo pandas y numpy, con el estadistico correcto para
+> cada hipotesis y una conclusion clara VALIDADA / NO VALIDADA con el criterio de decision."
+
+**Propósito:**  
+Definir la metodología estadística correcta para cada hipótesis y generar código ejecutable sin
+dependencias externas al stack pandas/numpy, que son las únicas librerías garantizadas en
+Databricks Serverless además de PySpark.
+
+**Cómo se validó el output:**  
+- La IA propuso `numpy.corrcoef` para H1 y H3, y comparación de medianas para H2. El equipo
+  revisó que `corrcoef` calcula el mismo coeficiente r de Pearson que `scipy.stats.pearsonr`
+  pero sin el p-valor asociado. Se aceptó esta limitación explícitamente en el notebook.
+- Para H2, la IA sugirió comparar medianas en lugar de medias porque el equipo había aplicado
+  filtrado IQR previo. El equipo validó este criterio consultando el apunte de la Semana 8 del
+  curso y confirmó que la mediana es más robusta ante el filtro de outliers.
+- Los valores obtenidos (r_H1 = -0.613, r_H3 = +0.320, diferencia H2 = +12.5%) fueron
+  contrastados contra los rangos esperados del PC1 y resultaron coherentes con los patrones
+  visibles en los graficos exploratorios. El equipo tomo la decision final de VALIDAR las tres
+  hipotesis con base en la interpretacion propia de los resultados, no en el criterio automatico
+  de la IA.
+
+---
+
+## Prompt 4 — Diseño de visualizaciones D3.js con principios de Data Storytelling
+
+**Herramienta:** Claude Sonnet 4.6 (claude.ai)  
+**Integrante que lo ejecutó:** Isabella Romero (Lider de Proyecto)
+
+**Prompt enviado:**
+
+> "Necesito crear visualizaciones D3.js para un notebook de Databricks que se renderizan con
+> displayHTML(). El contexto es un dashboard ejecutivo para la NYC TLC con 4 paneles alineados
+> a las hipotesis H1, H2 y H3 del proyecto. Los principios a seguir son los del PDF de Data
+> Storytelling del Prof. Morante: titulos activos con el insight directo, prueba de 3 segundos,
+> color pre-atentivo para el dato clave, arco narrativo en cada panel. La paleta debe combinar
+> dark navy (#111318) con olive/mostaza (#b8a820) como acento principal. IMPORTANTE: el SVG
+> no puede usar clientWidth porque devuelve 0 en displayHTML — usar anchos fijos. Sin comentarios
+> en el codigo JavaScript."
+
+**Propósito:**  
+Generar el codigo base de los 4 paneles D3.js del dashboard ejecutivo aplicando los principios
+de storytelling del curso, con la restriccion tecnica especifica de Databricks Serverless donde
+`svg.node().clientWidth` no funciona al momento de ejecucion del script.
+
+**Cómo se validó el output:**  
+- Cada panel fue ejecutado de forma independiente en Databricks antes de integrarlos al dashboard
+  final. Se verifico que los SVG se renderizaban sin desbordamiento y que los tooltips eran
+  visibles con `displayHTML()`.
+- El equipo reviso que los titulos propuestos por la IA fueran consistentes con los hallazgos
+  reales del analisis. Por ejemplo, la IA propuso "La duracion explica la tarifa (r=0.86)" como
+  titulo del panel de correlaciones — el equipo verifico que el valor 0.86 correspondia al
+  resultado real de la celda N2-1 antes de aprobarlo.
+- Se descartaron dos variantes de color propuestas por la IA (violeta oscuro para el panel de
+  tarifas) porque el equipo considero que no seguian el criterio de consistencia cromatica del
+  modelo de dashboard de referencia. Se sustituyo por el olive-dim (#6b6012) propio de la paleta.
+- Se corrigieron manualmente los titulos que contenian tildes o caracteres especiales que generaban
+  problemas de encoding en el string HTML de Python.
+
+---
+
+## Prompt 5 — Estructuracion del analisis prescriptivo con supuestos explicitos
+
+**Herramienta:** Claude Sonnet 4.6 (claude.ai)  
+**Integrante que lo ejecutó:** Jorge Peña (Analista de Negocio)
+
+**Prompt enviado:**
+
+> "Necesito construir el Nivel 4 Prescriptivo del analisis. Tenemos dos escenarios:
+> Escenario 1: incrementar la flota +15% los martes y jueves (dias pico segun H2).
+> Escenario 2: reasignar el 30% de los conductores de la franja Madrugada hacia la franja Tarde.
+> Para cada escenario necesito: (1) un supuesto operativo explicito y justificable, (2) el calculo
+> cuantificado del impacto usando las variables reales del dataset, y (3) un indicador de exito
+> medible. El analisis prescriptivo debe tener trazabilidad hacia los niveles 1, 2 y 3 del notebook.
+> Los supuestos deben ser conservadores y verificables con datos publicos de la industria del taxi
+> en NYC. Genera el codigo Python y el texto narrativo para el informe."
+
+**Propósito:**  
+Estructurar los dos escenarios prescriptivos con supuestos metodologicamente solidos y calculos
+reproducibles, asegurando que cada recomendacion pudiera trazarse hacia evidencia especifica
+de los niveles anteriores del analisis.
+
+**Cómo se validó el output:**  
+- El supuesto de 20 viajes/conductor/dia propuesto por la IA fue verificado contra el reporte
+  anual de la NYC TLC (2022 TLC Factbook), que reporta un promedio de 18-22 viajes diarios
+  por conductor activo. El equipo acepto 20 como valor representativo del rango.
+- El calculo de reduccion del 13% en tiempo de espera fue revisado por el equipo usando la
+  formula de relacion inversa oferta-demanda (1 - 1/(1+0.15)). Se confirmo que la formula
+  era correcta pero se agrego explicitamente en el informe que es una aproximacion lineal,
+  no una proyeccion de simulacion, para evitar sobrevender el resultado.
+- La trazabilidad hacia niveles anteriores fue revisada celda por celda: se verifico que los
+  valores numericos citados en el Nivel 4 (demanda_pico = 105,719 viajes/dia, brecha = 5,778)
+  correspondian exactamente a los outputs de las celdas N1-1 y N2-3 del notebook.
+- El equipo decidio no incluir una tercera recomendacion sobre pricing dinamico con la precision
+  cuantitativa original que sugeria la IA (+8% ingresos), ya que ese calculo requeria datos de
+  elasticidad de precio que no estaban en el dataset. Se reformulo como "+5% de ingreso promedio
+  por viaje" con criterio mas conservador y verificable.
+
+---
+
+## Resumen de uso
+
+| # | Prompt | Herramienta | Quien lo uso | Output incorporado | Modificaciones del equipo |
+|---|--------|-------------|--------------|-------------------|---------------------------|
+| 1 | Pipeline ETL PySpark | Claude Sonnet 4.6 | Mafer Torres | Celdas ETL-1 a ETL-4 del notebook | Correccion de encoding en "Manana", ajuste de rangos de filtro |
+| 2 | Fix VectorAssembler | Claude Sonnet 4.6 | Carla Quispe | Celda N2-1 (correlacion con sample 5%) | Verificacion estadistica de representatividad de la muestra |
+| 3 | Validacion H1/H2/H3 | Claude Sonnet 4.6 | Jorge Peña | Celda N2-4 (validacion explicita) | Cambio de criterio en H2 a medianas; interpretacion final propia |
+| 4 | Dashboard D3.js | Claude Sonnet 4.6 | Isabella Romero | Celdas de visualizacion D3 y dashboard ejecutivo | Correcciones de color, titulos, encoding; descarte de 2 variantes |
+| 5 | Analisis Prescriptivo | Claude Sonnet 4.6 | Jorge Peña | Celdas N4-1, N4-2, N4-3 y seccion 7 del informe | Reformulacion conservadora del escenario de pricing; verificacion de supuesto operativo |
+
+---
+
+## Reflexion sobre el uso de IA
+
+El equipo concluye que la IA generativa fue util principalmente en dos tipos de situaciones:
+como **acelerador tecnico** para resolver errores de entorno especificos de Databricks Serverless
+(Prompts 2 y 4), y como **estructurador** para organizar analisis que el equipo ya habia
+conceptualizado pero necesitaba traducir en codigo ejecutable (Prompts 1, 3 y 5).
+
+En ningun caso el equipo acepto los outputs de la IA sin revision critica. Los errores mas
+frecuentes fueron: uso de tildes y caracteres especiales en strings Python que generaban
+SyntaxError, valores numericos citados sin verificar contra los resultados reales del notebook,
+y supuestos operativos demasiado optimistas que el equipo modero para mantener la credibilidad
+del analisis ante una audiencia de negocios.
+
+La limitacion mas importante identificada es que la IA no tiene acceso al estado real del
+entorno de ejecucion ni a los datos del proyecto, por lo que cualquier valor numerico en su
+output debe considerarse un placeholder hasta ser reemplazado por el resultado real del analisis.
+
+---
+
+*Documento generado en cumplimiento de la politica de uso de IA del curso AD3005, seccion 7.1
+de la rubrica del Proyecto Final 2026-1, UTEC.*
